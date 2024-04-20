@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="button_container">
+      <img id="image" src="{{ url_for('static', filename='image.png') }}">
+      <div id="info"><h1 id="info_text">hold down <span id="info_accent">spacebar</span> to record</span></h1></div>
+      <div id="button_bg">
+        <div id="button_icon"></div>
+      </div>
+      <div id="c1" class="animated"></div>
+      <div id="c2" class="animated"></div>
+      <div id="c3" class="animated"></div>
+    </div>
+  </body>
+</html>

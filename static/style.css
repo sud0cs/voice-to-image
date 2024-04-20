@@ -1,0 +1,120 @@
+*{
+  transition-property: all;
+  transition: 0.5s;
+}
+body{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: #c5dfc4;
+  height: 100%;
+  width: 100%;
+}
+#button_container{
+  position: relative;
+  background: #800000;
+  height: 100%;
+  width: 100%;
+}
+#button_bg{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  margin: -100px -100px;
+  height: 200px;
+  width: 200px;
+  background: #ff3f33;
+  border-radius: 50%;
+  box-shadow: black 5px 5px 5px;
+}
+#button_icon{
+  position: relative;
+  top: 25%;
+  margin: auto auto;
+  height: 100px;
+  width: 100px;
+  background: #f4e8e7;
+  clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 50% 0%, 50% 0%, 50% 100%, 70% 100%, 100% 100%, 100% 100%, 100% 0%);
+}
+#info{
+  color: #f4e8e7;
+  padding: 0;
+  margin: -250px auto;
+  width: 100%;
+  top: 50%;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: rubik;
+}
+#info_accent{
+  color: #fffbba;
+}
+#image{
+  position: absolute;
+  margin: -256px -256px;
+  top: 50%;
+  right: 50%;
+  opacity: 0;
+}
+
+.animated{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  margin: -12px -12px;
+  height: 25px;
+  width: 25px;
+  background: #f4e8e7;
+  border-radius: 50%;
+  opacity:0;
+}
+#c1{
+  animation-name: c1load;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay:0.3s;
+  animation-play-state: paused;
+}
+#c2{
+  margin: -12px 48px;
+  animation-name: c2load;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+#c3{
+  margin: -12px -72px;
+  animation-name: c3load;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.6s;
+  animation-play-state: paused;
+
+}
+@keyframes c1load {
+  0%{
+    margin: -12px -12px;
+  }
+  33%{
+    margin: -60px -12px;
+  }
+}
+@keyframes c2load {
+  0%{
+    margin: -12px 48px;
+  }
+  33%{
+    margin: -60px 48px;
+  }
+}
+@keyframes c3load {
+  0%{
+    margin: -12px -72px;
+  }
+  33%{
+    margin: -60px -72px;
+  }
+}
