@@ -2,6 +2,8 @@
 
 A very simple flask app to convert voice to images.
 
+[<b>📺 Youtube preview</b>](https://www.youtube.com/watch?v=hMJqf417iws)
+
 ## Usage
 
 ### Dependencies
