@@ -31,3 +31,5 @@ python3 server.py
 
 ## Original models
 This project is possible thanks to this models:
+- [stable-diffusion-2-1-base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base)
+- [wav2vec2-large-xlsr-53-english](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-english)
