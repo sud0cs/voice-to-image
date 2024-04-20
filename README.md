@@ -16,7 +16,9 @@ git clone https://github.com/sud0cs/voice-to-image
 cd voice-to-image
 python3.10 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install flask pyaudio transformers huggingsound diffusers
+pip install --upgrade torch
+pip install accelerate
 ```
 
 ### Initialization
